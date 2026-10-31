@@ -1,7 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /blog/posts/
-Disallow: /tools/
-Disallow: /BLOG.md
 
 Sitemap: https://eala.energy/sitemap.xml
