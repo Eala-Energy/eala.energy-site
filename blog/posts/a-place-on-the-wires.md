@@ -5,6 +5,7 @@ date: 2026-10-05
 updated: 2026-10-05
 slug: a-place-on-the-wires
 tags: [grid-connections, energy-storage, scotland]
+linkedin_url: https://www.linkedin.com/feed/update/urn:li:activity:7512848567250821121/
 image: /blog/img/a-place-on-the-wires.jpg
 image_alt: "A long row of containerised modules beside transmission pylons and wind turbines in morning mist"
 ---

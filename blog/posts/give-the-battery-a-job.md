@@ -5,6 +5,7 @@ date: 2026-10-09
 updated: 2026-10-09
 slug: give-the-battery-a-job
 tags: [energy-storage, curtailment, ai-compute]
+linkedin_url: https://www.linkedin.com/feed/update/urn:li:activity:7514259889716707328/
 image: /blog/img/give-the-battery-a-job.jpg
 image_alt: "Containerised modules lit at dusk beside a wind turbine on a moorland site under storm clouds"
 ---

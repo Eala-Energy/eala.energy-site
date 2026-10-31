@@ -5,6 +5,7 @@ date: 2026-09-21
 updated: 2026-09-21
 slug: stop-waiting-for-a-socket
 tags: [grid-connections, curtailment, flexibility]
+linkedin_url: https://www.linkedin.com/feed/update/urn:li:activity:7507741021364039680/
 image: /blog/img/stop-waiting-for-a-socket.jpg
 image_alt: "Containerised modules lit at dusk on a moorland ridge, with transmission pylons and wind turbines on the skyline"
 ---

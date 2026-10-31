@@ -5,6 +5,7 @@ date: 2026-10-19
 updated: 2026-10-19
 slug: is-the-battery-party-over
 tags: [energy-storage, scotland, flexibility]
+linkedin_url: https://www.linkedin.com/feed/update/urn:li:activity:7517872237807312896/
 image: /blog/img/is-the-battery-party-over.jpg
 image_alt: "Rows of containerised modules on moorland at dawn, with a long line of wind turbines on the hills beyond"
 ---
