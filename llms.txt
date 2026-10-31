@@ -1,6 +1,6 @@
 # eala energy
 
-> eala energy builds distributed AI compute infrastructure at structurally constrained renewable nodes of the UK grid.
+> eala energy builds distributed AI compute infrastructure at structurally constrained renewable nodes in Scotland.
 
 eala energy captures clean power that today is curtailed and converts it into reliable compute, with an embedded energy-resilience layer for operational continuity and grid support. The platform combines containerised AI compute, an energy-resilience layer sized for long curtailment events, and a proprietary orchestration layer that continuously decides whether value is highest in compute, energy resilience, or grid services. Sites follow a 3–10 MW modular design with a 6–8 hr on-site energy-continuity layer.
 
