@@ -1,8 +1,9 @@
 # Blog ("Insights") — instructions for agents
 
-The site is plain static HTML served by GitHub Pages straight from `main` (no Jekyll: `.nojekyll`).
+The site is plain static HTML served by GitHub Pages straight from `main`. Pages runs Jekyll only
+to copy files: no page has front matter, and `_config.yml` lists what is kept out of the website.
 Posts are Markdown files in `blog/posts/`. `tools/build_blog.py` (Python 3.9+, standard library only)
-turns them into static HTML that is committed with the post. There is no server-side build.
+turns them into static HTML that is committed with the post.
 
 ## Add a post
 
@@ -28,7 +29,8 @@ updated: 2026-11-02       # last substantive edit, YYYY-MM-DD, never earlier tha
 slug: title-in-latin-letters
 tags: [curtailment, ai-compute]
 linkedin_url: https://www.linkedin.com/posts/...   # optional
-image: /blog/img/title.png                         # optional, defaults to /preview.png
+image: /blog/img/title-in-latin-letters.jpg        # optional, defaults to /preview.png
+image_alt: "What the picture shows"                # required when image is set
 ---
 ```
 
@@ -42,7 +44,12 @@ The build stops with an error (and writes nothing) if any rule below is broken.
 | `slug` | required, lowercase latin letters, digits and single hyphens; unique; becomes `/blog/<slug>/` |
 | `tags` | required list, may be empty: `[]` |
 | `linkedin_url` | optional, `https://www.linkedin.com/...`; adds "Discussion on LinkedIn" under the post |
-| `image` | optional, `https://...` or a site path starting with `/` |
+| `image` | optional, a file in `blog/img/` (path starting with `/`) or an `https://` URL; the file must exist. Shown as the cover and used as the LinkedIn/search preview |
+| `image_alt` | required when `image` is set: what the picture shows, for screen readers |
+
+**Cover images:** put them in `blog/img/` and name them after the slug: `blog/img/<slug>.jpg`.
+Use JPEG or PNG, at least 1200 px wide, about 1.9:1 to 16:9 (LinkedIn crops to 1.91:1), and
+ideally under 300 KB. The build reads the size from the file for `og:image:width/height`.
 
 Unknown fields and the string `TODO` anywhere in a post are errors, so unfinished posts cannot ship.
 
@@ -57,8 +64,9 @@ Unknown fields and the string `TODO` anywhere in a post are errors, so unfinishe
   LP, returns). Tone: neutral and institutional.
 - **Figures:** use only numbers already on the site (3–10 MW, 6–8 hr) or numbers with a cited
   source. Do not invent company metrics.
-- **Drafts:** a file whose name starts with `_` is never built. But the repository is public and
-  GitHub Pages serves every file in `main`, so never commit anything confidential, drafts included.
+- **Drafts:** a file whose name starts with `_` is never built. The Markdown sources, `tools/` and
+  this file are not published on eala.energy (see `_config.yml`), but the GitHub repository is
+  public, so never commit anything confidential, drafts included.
 
 ### Supported Markdown
 
@@ -66,6 +74,9 @@ Paragraphs, `##`–`######` headings, **bold**, *italic*, `code`, links `[text](
 `<https://...>`, images `![alt](/path.png)`, one-level `-` and `1.` lists, `>` quotes, fenced code
 blocks, `---` rules and simple pipe tables. Not supported: raw HTML (shown as text), nested lists,
 footnotes, URLs that contain parentheses. Put images in `blog/img/` and always write alt text.
+
+Do not add front matter (`---` at the top) or `{{ }}` / `{% %}` to any HTML file: Jekyll would
+start processing it. The generated pages never contain them.
 
 ## Preview locally
 
@@ -93,4 +104,4 @@ within a couple of minutes. Never push to `main` directly. Before opening the PR
 
 1. `python3 tools/build_blog.py --check` prints `ok`.
 2. The post looks right at http://localhost:8000/blog/<slug>/, at desktop width and at 390px.
-3. Commit the `.md` file **and** all generated files together.
+3. Commit the `.md` file, its image **and** all generated files together.

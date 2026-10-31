@@ -6,6 +6,8 @@ updated: 2026-10-22
 slug: how-many-hours-can-britain-store
 tags: [energy-storage, long-duration, curtailment]
 linkedin_url: https://www.linkedin.com/feed/update/urn:li:activity:7519331624375918592/
+image: /blog/img/how-many-hours-can-britain-store.jpg
+image_alt: "A row of containerised modules on misty moorland below a large dam, with a transmission pylon and wind turbines"
 ---
 
 Mark sent me the trade body’s numbers on Wednesday.
