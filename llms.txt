@@ -16,6 +16,10 @@ Legal entity: EALA ENERGY LTD, registered in England and Wales, Companies House 
 - [All insights](https://eala.energy/blog/): Insights from eala energy on distributed AI compute, curtailed renewable power and the energy-resilience layer.
 - [Why long money doesn’t go where the curtailment is](https://eala.energy/blog/why-long-money-avoids-curtailment/): Behind the Scottish constraint, a battery may have three to five strong years; lenders want seven to ten. What kind of project fits that window?
 - [How many hours can Britain’s batteries actually store?](https://eala.energy/blog/how-many-hours-can-britain-store/): Britain’s 8.7 GW battery fleet holds 14.1 GWh, about an hour and a half at full output. Why storage duration, and a load at the node, matter.
+- [Is the battery party over?](https://eala.energy/blog/is-the-battery-party-over/): GB battery revenues hit £99k/MW a year in September, yet Norway’s oil fund says values are falling. Location, not chemistry, decided who won.
+- [Are we using the batteries we already have?](https://eala.energy/blog/give-the-battery-a-job/): This summer batteries offered the grid twice as much energy as last year; under 6% was dispatched. The case for giving storage a job of its own.
+- [Capital isn’t scarce. A place on the wires is.](https://eala.energy/blog/a-place-on-the-wires/): €270m for 350 MW at Kilmarnock South, and Ofgem plans a fee to hold a connection queue place. What’s scarce now is grid access, not capital.
+- [Stop waiting for a socket](https://eala.energy/blog/stop-waiting-for-a-socket/): 90 GW of batteries built or queued against 29 GW needed by 2035, and soon a fee to stay in line. Why storage and compute behind a wind farm can build now.
 
 ## Contact
 
