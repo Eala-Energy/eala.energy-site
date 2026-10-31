@@ -9,7 +9,8 @@ slug: article-title-in-latin-letters
 tags: [curtailment, ai-compute]
 # Optional:
 # linkedin_url: https://www.linkedin.com/posts/eala-energy_...
-# image: /blog/img/article-title.png
+# image: /blog/img/article-title-in-latin-letters.jpg   # cover + social preview, at least 1200 px wide
+# image_alt: "What the picture shows, for screen readers"  # required when image is set
 ---
 
 The opening paragraph. The title above is the page's only H1, so sections start at `##`.

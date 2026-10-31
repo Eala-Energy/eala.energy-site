@@ -28,5 +28,45 @@
       <category>long-duration</category>
       <category>curtailment</category>
     </item>
+    <item>
+      <title>Is the battery party over?</title>
+      <link>https://eala.energy/blog/is-the-battery-party-over/</link>
+      <guid isPermaLink="true">https://eala.energy/blog/is-the-battery-party-over/</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <description>GB battery revenues hit £99k/MW a year in September, yet Norway’s oil fund says values are falling. Location, not chemistry, decided who won.</description>
+      <category>energy-storage</category>
+      <category>scotland</category>
+      <category>flexibility</category>
+    </item>
+    <item>
+      <title>Are we using the batteries we already have?</title>
+      <link>https://eala.energy/blog/give-the-battery-a-job/</link>
+      <guid isPermaLink="true">https://eala.energy/blog/give-the-battery-a-job/</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <description>This summer batteries offered the grid twice as much energy as last year; under 6% was dispatched. The case for giving storage a job of its own.</description>
+      <category>energy-storage</category>
+      <category>curtailment</category>
+      <category>ai-compute</category>
+    </item>
+    <item>
+      <title>Capital isn’t scarce. A place on the wires is.</title>
+      <link>https://eala.energy/blog/a-place-on-the-wires/</link>
+      <guid isPermaLink="true">https://eala.energy/blog/a-place-on-the-wires/</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <description>€270m for 350 MW at Kilmarnock South, and Ofgem plans a fee to hold a connection queue place. What’s scarce now is grid access, not capital.</description>
+      <category>grid-connections</category>
+      <category>energy-storage</category>
+      <category>scotland</category>
+    </item>
+    <item>
+      <title>Stop waiting for a socket</title>
+      <link>https://eala.energy/blog/stop-waiting-for-a-socket/</link>
+      <guid isPermaLink="true">https://eala.energy/blog/stop-waiting-for-a-socket/</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+      <description>90 GW of batteries built or queued against 29 GW needed by 2035, and soon a fee to stay in line. Why storage and compute behind a wind farm can build now.</description>
+      <category>grid-connections</category>
+      <category>curtailment</category>
+      <category>flexibility</category>
+    </item>
   </channel>
 </rss>

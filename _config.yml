@@ -1,0 +1,8 @@
+# GitHub Pages runs Jekyll here only to copy the site as-is: no page has front matter or Liquid,
+# so every HTML/XML/TXT file is published byte-for-byte. Jekyll also skips dotfiles (.DS_Store)
+# and anything starting with "_" (e.g. blog/posts/_template.md).
+# Kept in the repository but not published on eala.energy:
+exclude:
+  - BLOG.md
+  - tools/
+  - blog/posts/

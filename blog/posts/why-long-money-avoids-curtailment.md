@@ -6,6 +6,8 @@ updated: 2026-10-29
 slug: why-long-money-avoids-curtailment
 tags: [curtailment, energy-storage, scotland]
 linkedin_url: https://www.linkedin.com/feed/update/urn:li:activity:7521887573926137856/
+image: /blog/img/why-long-money-avoids-curtailment.jpg
+image_alt: "Containerised modules on a floodlit gravel pad on a moorland ridge at dusk, with wind turbines on the hills behind"
 ---
 
 Tom forwarded the French deal on Thursday with one question.
