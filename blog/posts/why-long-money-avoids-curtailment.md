@@ -5,6 +5,7 @@ date: 2026-10-29
 updated: 2026-10-29
 slug: why-long-money-avoids-curtailment
 tags: [curtailment, energy-storage, scotland]
+linkedin_url: https://www.linkedin.com/feed/update/urn:li:activity:7521887573926137856/
 ---
 
 Tom forwarded the French deal on Thursday with one question.

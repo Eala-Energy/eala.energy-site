@@ -5,6 +5,7 @@ date: 2026-10-22
 updated: 2026-10-22
 slug: how-many-hours-can-britain-store
 tags: [energy-storage, long-duration, curtailment]
+linkedin_url: https://www.linkedin.com/feed/update/urn:li:activity:7519331624375918592/
 ---
 
 Mark sent me the trade body’s numbers on Wednesday.
