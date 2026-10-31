@@ -959,13 +959,25 @@
     animate();
   </script>
 
-  <!-- Three.js -->
-  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
-  <script>
+  <!-- Three.js (ES module; three.module.js imports ./three.core.js, both pinned by SRI) -->
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.187.0/build/three.module.js"
+    },
+    "integrity": {
+      "https://cdn.jsdelivr.net/npm/three@0.187.0/build/three.module.js": "sha384-T/E3B9AvPtLn5PKD7aTSFqizQcA4kHDfU0lub7u0fvM4w9BMGcSb3yI7r5LqMAMn",
+      "https://cdn.jsdelivr.net/npm/three@0.187.0/build/three.core.js": "sha384-drH6BueSlcvoXCwAqWkNJvXwu2Ax3mnGOmZnIXaomedIw+uXSP9Bf/XIUINgLUW+"
+    }
+  }
+  </script>
+  <script type="module">
+    import * as THREE from 'three';
+
     // ── 3D Hero sphere ──────────────────────────────────────────────
     (function(){
       const canvas = document.getElementById('heroCanvas');
-      if (!canvas || typeof THREE === 'undefined') return;
+      if (!canvas) return;
 
       const parent = canvas.parentElement;
       const W = () => parent.offsetWidth;
@@ -1051,7 +1063,8 @@
         camera.updateProjectionMatrix();
       });
     })();
-
+  </script>
+  <script>
     // ── 3D card tilt ────────────────────────────────────────────────
     document.querySelectorAll('.card').forEach(card => {
       card.addEventListener('mousemove', e => {
