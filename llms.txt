@@ -1,0 +1,18 @@
+# eala energy
+
+> eala energy builds distributed AI compute infrastructure at structurally constrained renewable nodes of the UK grid.
+
+eala energy captures clean power that today is curtailed and converts it into reliable compute, with an embedded energy-resilience layer for operational continuity and grid support. The platform combines containerised AI compute, an energy-resilience layer sized for long curtailment events, and a proprietary orchestration layer that continuously decides whether value is highest in compute, energy resilience, or grid services. Sites follow a 3–10 MW modular design with a 6–8 hr on-site energy-continuity layer.
+
+Legal entity: EALA ENERGY LTD, registered in England and Wales, Companies House company number 17110070. Registered office: Rex House, 4-12 Regent Street, London, England, SW1Y 4PE.
+
+## Pages
+
+- [Home](https://eala.energy/): platform overview (distributed AI compute, energy-resilience layer, orchestration) and contact form
+- [Privacy Policy](https://eala.energy/privacy): how contact-form and analytics data are processed
+
+## Contact
+
+- Email: info@eala.energy
+- LinkedIn: https://www.linkedin.com/company/eala-energy/
+- Companies House record: https://find-and-update.company-information.service.gov.uk/company/17110070
