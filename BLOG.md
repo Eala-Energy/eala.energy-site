@@ -71,7 +71,7 @@ Unknown fields and the string `TODO` anywhere in a post are errors, so unfinishe
 ### Supported Markdown
 
 Paragraphs, `##`–`######` headings, **bold**, *italic*, `code`, links `[text](url)`, autolinks
-`<https://...>`, images `![alt](/path.png)`, one-level `-` and `1.` lists, `>` quotes, fenced code
+`<https://...>`, numbered source markers `[[1]](url)`, images `![alt](/path.png)`, one-level `-` and `1.` lists, `>` quotes, fenced code
 blocks, `---` rules and simple pipe tables. Not supported: raw HTML (shown as text), nested lists,
 footnotes, URLs that contain parentheses. Put images in `blog/img/` and always write alt text.
 

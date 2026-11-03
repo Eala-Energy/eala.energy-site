@@ -14,6 +14,7 @@ Legal entity: EALA ENERGY LTD, registered in England and Wales, Companies House 
 ## Insights
 
 - [All insights](https://eala.energy/blog/): Insights from eala energy on distributed AI compute, curtailed renewable power and the energy-resilience layer.
+- [Is storage arguing over the wrong purse?](https://eala.energy/blog/is-storage-arguing-over-the-wrong-purse/): Battery developers warn Ofgem’s 7.6 GW long-duration round could cut two-hour revenues by 13%. Constraint payments, a bigger bill, ran at £1.9bn.
 - [Why long money doesn’t go where the curtailment is](https://eala.energy/blog/why-long-money-avoids-curtailment/): Behind the Scottish constraint, a battery may have three to five strong years; lenders want seven to ten. What kind of project fits that window?
 - [How many hours can Britain’s batteries actually store?](https://eala.energy/blog/how-many-hours-can-britain-store/): Britain’s 8.7 GW battery fleet holds 14.1 GWh, about an hour and a half at full output. Why storage duration, and a load at the node, matter.
 - [Is the battery party over?](https://eala.energy/blog/is-the-battery-party-over/): GB battery revenues hit £99k/MW a year in September, yet Norway’s oil fund says values are falling. Location, not chemistry, decided who won.
