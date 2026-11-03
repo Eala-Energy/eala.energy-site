@@ -196,7 +196,7 @@ def inline(s):
     s = re.sub(r'`([^`]+)`', lambda m: keep(f'<code>{m.group(1)}</code>'), s)
     s = re.sub(r'!\[([^\]]*)\]\(([^)\s]+)\)', lambda m: keep(
         f'<img src="{_attr(_safe_url(m.group(2)))}" alt="{_attr(m.group(1))}" loading="lazy">'), s)
-    s = re.sub(r'\[([^\]]+)\]\(([^)\s]+)\)', lambda m: keep(
+    s = re.sub(r'\[((?:[^\[\]]|\[[^\]]*\])+)\]\(([^)\s]+)\)', lambda m: keep(
         f'<a href="{_attr(_safe_url(m.group(2)))}">{_emph(m.group(1))}</a>'), s)
     s = re.sub(r'&lt;(https?://[^\s&]+(?:&amp;[^\s&]+)*)&gt;', lambda m: keep(
         f'<a href="{_attr(m.group(1))}">{m.group(1)}</a>'), s)
@@ -398,7 +398,7 @@ CSS = '''    :root{
     .prose p, .prose ul, .prose ol, .prose blockquote, .prose pre, .prose .table-wrap{margin:0 0 20px}
     .prose ul, .prose ol{padding-left:22px}
     .prose li{margin:6px 0}
-    .prose a{color:var(--cyan)}
+    .prose a{color:var(--cyan); overflow-wrap:anywhere}
     .prose strong{color:var(--text)}
     .prose code{font-size:.9em; padding:2px 6px; border-radius:6px; background:rgba(255,255,255,.06)}
     .prose pre{padding:16px; border-radius:14px; background:rgba(0,0,0,.28); overflow-x:auto}
