@@ -6,8 +6,18 @@
     <link>https://eala.energy/blog/</link>
     <description>Insights from eala energy on distributed AI compute, curtailed renewable power and the energy-resilience layer.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://eala.energy/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How many hours will a lender back?</title>
+      <link>https://eala.energy/blog/how-many-hours-will-a-lender-back/</link>
+      <guid isPermaLink="true">https://eala.energy/blog/how-many-hours-will-a-lender-back/</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Developers will design lithium-ion for 16 hours when a revenue floor is in prospect. Supernode runs at about four. Does the contract set the duration?</description>
+      <category>energy-storage</category>
+      <category>ldes</category>
+      <category>financing</category>
+    </item>
     <item>
       <title>Is storage arguing over the wrong purse?</title>
       <link>https://eala.energy/blog/is-storage-arguing-over-the-wrong-purse/</link>
