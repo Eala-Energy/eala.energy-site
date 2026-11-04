@@ -1,0 +1,28 @@
+# After a deploy that changes sitemap.xml, tells IndexNow which URLs changed.
+# Run it by hand from the Actions tab to resubmit every URL in the sitemap.
+name: IndexNow
+
+on:
+  push:
+    branches: [main]
+    paths: [sitemap.xml]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+          persist-credentials: false
+      - name: Submit changed URLs
+        if: github.event_name == 'push'
+        run: python3 tools/indexnow.py
+      - name: Submit every URL
+        if: github.event_name == 'workflow_dispatch'
+        run: python3 tools/indexnow.py --all
