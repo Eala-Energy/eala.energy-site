@@ -105,3 +105,13 @@ within a couple of minutes. Never push to `main` directly. Before opening the PR
 1. `python3 tools/build_blog.py --check` prints `ok`.
 2. The post looks right at http://localhost:8000/blog/<slug>/, at desktop width and at 390px.
 3. Commit the `.md` file, its image **and** all generated files together.
+
+## After publishing
+
+When a merge changes `sitemap.xml`, the `IndexNow` GitHub Action waits for the deploy and sends the
+new and updated URLs to IndexNow (Bing, Yandex and others). Nothing to do by hand for those engines.
+Google does not take part: request indexing for a new post in Search Console.
+
+To resubmit every URL, run the `IndexNow` workflow from the Actions tab. To see what would be sent:
+`python3 tools/indexnow.py --dry-run`. The `<key>.txt` file in the site root proves ownership. It is
+public by design; do not delete it.
