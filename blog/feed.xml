@@ -6,8 +6,18 @@
     <link>https://eala.energy/blog/</link>
     <description>Insights from eala energy on distributed AI compute, curtailed renewable power and the energy-resilience layer.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://eala.energy/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Good week for storage, or good week for steel?</title>
+      <link>https://eala.energy/blog/good-week-for-steel/</link>
+      <guid isPermaLink="true">https://eala.energy/blog/good-week-for-steel/</guid>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Three battery headlines in one week. The figures behind them show how long capital waits for a grid connection, and what a modular approach could change.</description>
+      <category>energy-storage</category>
+      <category>grid-connections</category>
+      <category>financing</category>
+    </item>
     <item>
       <title>Thirty batteries, one position?</title>
       <link>https://eala.energy/blog/thirty-batteries-one-position/</link>
