@@ -31,6 +31,7 @@ tags: [curtailment, ai-compute]
 linkedin_url: https://www.linkedin.com/posts/...   # optional
 image: /blog/img/title-in-latin-letters.jpg        # optional, defaults to /preview.png
 image_alt: "What the picture shows"                # required when image is set
+image_caption: Illustration                        # optional, shown under the cover
 ---
 ```
 
@@ -46,6 +47,7 @@ The build stops with an error (and writes nothing) if any rule below is broken.
 | `linkedin_url` | optional, `https://www.linkedin.com/...`; adds "Discussion on LinkedIn" under the post |
 | `image` | optional, a file in `blog/img/` (path starting with `/`) or an `https://` URL; the file must exist. Shown as the cover and used as the LinkedIn/search preview |
 | `image_alt` | required when `image` is set: what the picture shows, for screen readers |
+| `image_caption` | optional, needs `image`: a short line under the cover. Use `Illustration` for generated or drawn covers, so no one reads them as photos of eala sites |
 
 **Cover images:** put them in `blog/img/` and name them after the slug: `blog/img/<slug>.jpg`.
 Use JPEG or PNG, at least 1200 px wide, about 1.9:1 to 16:9 (LinkedIn crops to 1.91:1), and
