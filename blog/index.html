@@ -131,10 +131,14 @@
     if (localStorage.getItem('cookie_consent') === 'accepted') loadGA();
   </script>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
   <style>
+    /* Inter (SIL OFL 1.1, fonts/OFL.txt), self-hosted: no third-party font requests */
+    @font-face{
+      font-family:'Inter'; font-style:normal; font-weight:400 800; font-display:swap;
+      src:url(/fonts/inter-latin.woff2) format('woff2');
+      unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
     :root{
       --text:#ebf3ff; --muted:#9fb4d4; --cyan:#5dd7ff; --blue:#3e7bff; --teal:#59e1c7;
       --line:rgba(103,177,255,.18); --max:1180px; --read:760px;
@@ -172,6 +176,7 @@
     .lead{color:var(--muted); font-size:18px; line-height:1.7; margin:0 0 36px}
     .meta{color:var(--muted); font-size:14px; margin:0 0 40px; display:flex; flex-wrap:wrap; gap:8px 16px}
     .cover{margin:-8px 0 40px}
+    .cover figcaption{margin-top:10px; color:var(--muted); font-size:13px; letter-spacing:.02em}
     .cover img{
       display:block; width:100%; height:auto; border-radius:24px;
       border:1px solid rgba(255,255,255,.06); box-shadow:0 18px 60px rgba(0,0,0,.28);
@@ -248,9 +253,15 @@
     }
 
     @media (max-width: 820px){
-      .nav-links a{display:none}
-      .brand img{width:96px; height:96px}
+      .nav-links{gap:18px}
+      .nav-links a:not([href="/blog/"]):not([href="/#contact"]){display:none}
+      .nav-links a{display:inline-flex; align-items:center; min-height:44px}
+      .brand img{width:72px; height:72px}
       main{padding-top:36px}
+    }
+    @media (max-width: 420px){
+      .brand span{display:none}
+      .cookie-banner button{min-height:44px}
     }
   </style>
 </head>

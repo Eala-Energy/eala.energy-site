@@ -8,6 +8,7 @@ tags: [energy-storage, grid-connections, financing]
 linkedin_url: https://www.linkedin.com/posts/sergey-korovin-43b4b72_energystorage-bess-projectfinance-share-7528444388247633920-2C_c
 image: /blog/img/good-week-for-steel.jpg
 image_alt: "A landscape at dusk split in two: on the left, a muddy construction site with cranes, steel frames and concrete pads; on the right, lit compute buildings and container rows among Scottish hills with wind turbines"
+image_caption: Illustration
 ---
 
 James sent me three headlines on Monday. Ampeak has installed every battery at its Newport site [[1]](https://nation.cymru/news/all-55-batteries-installed-at-new-energy-storage-facility/). Flower has filed permits for 2,000 MWh near Berlin [[3]](https://www.ess-news.com/2026/11/16/flower-plans-2-gwh-bess-in-germany-near-berlin/). Statkraft has switched on the first phase at Neilston [[4]](https://www.solarpowerportal.co.uk/energy-storage/statkraft-starts-commercial-operations-at-first-phase-of-750mw-neilston-bess-project).

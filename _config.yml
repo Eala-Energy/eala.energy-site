@@ -4,5 +4,8 @@
 # Kept in the repository but not published on eala.energy:
 exclude:
   - BLOG.md
+  - PRODUCT.md
+  - DESIGN.md
+  - AUDIT.md
   - tools/
   - blog/posts/
