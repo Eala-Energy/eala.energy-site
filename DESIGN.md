@@ -2,11 +2,11 @@
 name: eala energy
 description: Institutional briefing on warm paper: set type, sourced figures, plain structure. Built on branch redesign (18 Nov 2026): home, blog, privacy and 404 restyled; home sections keep their old structure and copy for now.
 colors:
-  paper: "#EEECE6"
-  sheet: "#F7F6F2"
+  paper: "#E8EDF1"
+  sheet: "#F5F7F9"
   ink: "#17191C"
   ink-2: "#4F545A"
-  rule: "#C8C4BA"
+  rule: "#C2CCD5"
   slate: "#35546F"
   slate-deep: "#27425A"
   amber: "#B5650A"
@@ -106,11 +106,11 @@ Restrained strategy: tinted neutrals, one accent, one semantic signal.
 - **Amber** `#B5650A`, tint `#F3E2C8`: means **curtailed energy** and nothing else. Used for the curtailment series in a chart (section 1). Not used anywhere yet. Never for text (3.7:1 on paper), buttons, links, highlights or decoration.
 
 ### Neutral
-- **Paper** `#EEECE6`: page ground. A warm stone grey, deliberately greyer than "cream".
-- **Sheet** `#F7F6F2`: raised surfaces (form fields, secondary-button hover, chart plates).
+- **Paper** `#E8EDF1`: page ground. The slate accent diluted to a pale blue-grey, so ground, accent and drawings read as one family, like a drawing sheet (chosen 18 Nov 2026 over warm #EEECE6, which read as the saturated cream template, and over neutral #EDEFF0).
+- **Sheet** `#F5F7F9`: raised surfaces (form fields, secondary-button hover, chart plates).
 - **Ink** `#17191C`: text and drawing lines. 14.9:1 on paper.
 - **Ink-2** `#4F545A`: secondary text, captions, source lines. 6.5:1 on paper.
-- **Rule** `#C8C4BA`: hairlines and borders. Decorative only.
+- **Rule** `#C2CCD5`: hairlines and borders. Decorative only.
 - **Error** `#A3261B`: form error text only.
 
 ### Named rules
