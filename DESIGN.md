@@ -220,7 +220,7 @@ From `/impeccable shape`, 17 Nov 2026. Direction pinned by the founder, so there
 **Scope.** Home page first. The blog template (`tools/build_blog.py`), `privacy.html` and `404.html` move to the same system in the same release, so the site never runs two identities. Fidelity: production page.
 
 **Implementation consequences**
-- New self-hosted fonts: Source Serif 4, Public Sans, Red Hat Mono, latin subsets, with OFL licences in `fonts/`. Inter can go once nothing uses it.
+- New self-hosted fonts: Source Serif 4, Public Sans, Red Hat Mono, latin subsets, with OFL licences in `fonts/`. Inter and its licence were removed on 18 Nov 2026.
 - Remove the three.js import map, both canvases and all keyframes.
 - `tools/build_blog.py` gains a marker that writes the latest 3 posts into the home page, like the existing `blog:nav` and `blog:footer` markers.
 - Keep untouched: GA4 Consent Mode with the `cookie_consent` key, the Formspree endpoint, JSON-LD, `llms.txt`, sitemap and IndexNow, the approved figures, the legal footer.
