@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-23T13:20:19.533Z",
+        "reason": "User confirmed 2026-11-23: full-bleed header/band, measured 28px/64px insets on live site"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "blog/**/index.html"
+        ],
+        "createdAt": "2026-11-23T13:20:19.555Z",
+        "reason": "User confirmed 2026-11-23: full-bleed header, measured 28px inset on live site"
+      }
+    ]
+  }
+}
