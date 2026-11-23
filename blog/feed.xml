@@ -6,8 +6,18 @@
     <link>https://eala.energy/blog/</link>
     <description>Insights from eala energy on distributed AI compute, curtailed renewable power and the energy-resilience layer.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://eala.energy/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A quarter point from the bond market</title>
+      <link>https://eala.energy/blog/quarter-point-from-the-bond-market/</link>
+      <guid isPermaLink="true">https://eala.energy/blog/quarter-point-from-the-bond-market/</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Gresham House lost more NAV to a 25bp discount-rate rise than to weaker revenue forecasts. What does that say about how long-dated assets are valued?</description>
+      <category>energy-storage</category>
+      <category>financing</category>
+      <category>scotland</category>
+    </item>
     <item>
       <title>Good week for storage, or good week for steel?</title>
       <link>https://eala.energy/blog/good-week-for-steel/</link>
