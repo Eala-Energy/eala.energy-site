@@ -14,6 +14,7 @@ Legal entity: EALA ENERGY LTD, registered in England and Wales, Companies House 
 ## Insights
 
 - [All insights](https://eala.energy/blog/): Insights from eala energy on distributed AI compute, curtailed renewable power and the energy-resilience layer.
+- [A quarter point from the bond market](https://eala.energy/blog/quarter-point-from-the-bond-market/): Gresham House lost more NAV to a 25bp discount-rate rise than to weaker revenue forecasts. What does that say about how long-dated assets are valued?
 - [Good week for storage, or good week for steel?](https://eala.energy/blog/good-week-for-steel/): Three battery headlines in one week. The figures behind them show how long capital waits for a grid connection, and what a modular approach could change.
 - [Thirty batteries, one position?](https://eala.energy/blog/thirty-batteries-one-position/): Britain’s largest listed battery fund has put itself up for sale. Its sites are spread across the map, but how different are the ways they earn money?
 - [How many hours will a lender back?](https://eala.energy/blog/how-many-hours-will-a-lender-back/): Developers will design lithium-ion for 16 hours when a revenue floor is in prospect. Supernode runs at about four. Does the contract set the duration?
