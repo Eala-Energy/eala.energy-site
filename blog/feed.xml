@@ -6,8 +6,19 @@
     <link>https://eala.energy/blog/</link>
     <description>Insights from eala energy on distributed AI compute, curtailed renewable power and the energy-resilience layer.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://eala.energy/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Twelve zones, and where the surplus goes</title>
+      <link>https://eala.energy/blog/twelve-zones-and-where-the-surplus-goes/</link>
+      <guid isPermaLink="true">https://eala.energy/blog/twelve-zones-and-where-the-surplus-goes/</guid>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <description>NESO wants to buy reserve in twelve zones. The national saving is small; behind a Scottish constraint, the bigger question is where surplus power goes.</description>
+      <category>flexibility</category>
+      <category>curtailment</category>
+      <category>scotland</category>
+      <category>ai-compute</category>
+    </item>
     <item>
       <title>A quarter point from the bond market</title>
       <link>https://eala.energy/blog/quarter-point-from-the-bond-market/</link>
